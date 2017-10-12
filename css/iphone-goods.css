@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  /*margin: 0px 0 5px;*/
+  flex: 1;
+  text-align: center;
+  line-height: 30px;
+  list-style: none;
+  border-top: 3px solid white;
+}
+
+ul li:nth-child(2) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.xuanzhong {
+  color: red;
+  border-top: 3px solid red;
+}
+
+.xuanzhongs {
+  display: block;
+}
+
+#carousel {
+  overflow: hidden;
+}
+
+#carousel dl {
+  width: 300%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  left: 0;
+  transition: all 1s;
+}
+
+dd {
+  float: left;
+  /*width: 3%;*/
+  flex: 1;
+  height: 500px;
+}
+
+dd:nth-child(1) {
+  background-color: red;
+}
+
+dd:nth-child(2) {
+  background-color: black;
+}
+
+dd:nth-child(3) {
+  background-color: blue;
+}
+
+footer {
+  width: 100%;
+  /*height: 40px;*/
+  /*display: flex;*/
+  position: fixed;
+  bottom: 0;
+}
+
+footer>ol {
+  display: flex;
+}
+
+footer>ol>li {
+  text-align: center;
+  line-height: 40px;
+}
+
+footer>ol>li:nth-child(4) a,
+footer>ol>li:nth-child(5) a {
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+footer>ol>li:nth-child(1) a,
+footer>ol>li:nth-child(2) a,
+footer>ol>li:nth-child(3) a {
+  color: #666666;
+  width: 100%;
+  height: 80%;
+  display: block;
+  border-top: .5px solid #ccc;
+  box-sizing: border-box;
+  /*line-height: 50px;*/
+}
+
+footer>ol>li:nth-child(1),
+footer>ol>li:nth-child(2),
+footer>ol>li:nth-child(3) {
+  flex: 1;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 10px;
+}
+
+footer>ol>li:nth-child(4),
+footer>ol>li:nth-child(5) {
+  flex: 3;
+  width: 100%;
+  height: 100%;
+  /*background-color: yellowgreen;*/
+}
+
+footer>ol>li:nth-child(2) a {
+  display: block;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+footer>ol>li:nth-child(4) {
+  background-color: #FF9500;
+}
+
+footer>ol>li:nth-child(5) {
+  background-color: #DD2727;
+}
