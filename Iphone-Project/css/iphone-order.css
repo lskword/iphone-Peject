@@ -1,0 +1,228 @@
+body {
+  background-color: #EEEEEE;
+}
+.aderss span{
+    float: left;
+    margin: .7rem .05rem;
+    font-size: .6rem;}
+.aderss{
+  height: 3.5rem;
+  width: 90%;
+  margin: .5rem auto;
+  background: #f9f9f9;
+    }
+.aderss a{
+  font-size: .8rem
+}
+
+h3{
+text-align: center;
+width: 100%;
+line-height: 5rem;
+border-radius: 100%;
+font-size: 1rem;
+}
+header {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #c6c6c6;
+  background-color: #fff;
+}
+
+header div {
+  flex: 3;
+}
+
+header div.black-btn {
+  background: url(../images/black.png) 1.423rem center no-repeat;
+  background-size: .5rem;
+}
+
+header .title {
+  flex: 3;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: .8rem;
+}
+
+.order-top {
+  width: 100%;
+  overflow: hidden;
+  height: 3rem;
+  display: flex;
+  background: #ff7e00 url(../images/TB1TRj7PVXXXXbXXXXXXXXXXXXX-420-300.png)no-repeat 90% center;
+  background-size: auto 100%;
+
+}
+
+#order-shop ul li {
+  margin: .5rem 0;
+}
+
+.order-top .topleft {
+  background: url(../images/smalllogo.png) 1.423rem center no-repeat;
+  background-size: 1.2rem;
+  width: 3rem;
+  line-height: 2rem;
+  flex: 1;
+}
+
+.order-top .topright {
+  line-height: 3rem;
+  flex: 1;
+  color: #fff;
+  font-weight: 600;
+}
+
+.shopxq {
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+.shopxq .shop-content {
+  width: 90%;
+  display: flex;
+  background: #f9f9f9;
+  margin: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.shopxq .shop-content span {
+  flex: 1;
+  margin: .8rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.shopxq .shop-content span:nth-child(1) {
+  text-align: center;
+}
+
+.shopxq .shop-content span:nth-child(3) dl {
+  text-align: right;
+}
+
+.shopxq .shop-content span:nth-child(3) dl dd:nth-child(2) {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.shop-content-price, .shop-content-num {
+  font-weight: 600;
+}
+
+.shop-content-num {
+  margin-top: 2rem;
+}
+
+.shopxq .shop-content span:nth-child(2) {
+  flex: 4;
+  margin: .8rem 0;
+}
+
+.shopxq .shop-content span img {
+  width: 3rem;
+}
+
+.shop-bottom {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.shop-bottom span {
+  float: right;
+  line-height: 2rem;
+  margin-right: 1rem;
+}
+
+.shop-bottom span b {
+  color: red;
+}
+
+.order-footer {
+  background-color: #fff;
+  line-height: 1.4rem;
+  width: 100%;
+  height: 2rem;
+}
+
+.order-footer span {
+  border: 1px solid #c6c6c6;
+  text-align: center;
+  line-height: 1.3rem;
+  font-size: .3rem;
+  display: block;
+  float: left;
+  width: 18%;
+  margin: .3rem .14rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.order-footer span:nth-child(1) {
+  width: 35%;
+  border: 0;
+}
+
+.order-footer span:nth-child(4) {
+  border: 1px solid red;
+  color: red;
+}
+
+#oprompts {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  top: 0px;
+}
+
+#oprompts .order-mudol {
+  position: relative;
+  width: 10rem;
+  height: 6rem;
+  top: 50%;
+  left: 50%;
+  background: #F6F6F6;
+  margin: -5rem -5rem;
+  border-radius: 10px;
+}
+
+#oprompts .order-mudol p {
+  line-height: 3rem;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+
+#oprompts .order-mudol button {
+  width: 4rem;
+  height: 1.5rem;
+  border: 0;
+  color: black;
+  margin: .7rem .3rem;
+}
+
+#oprompts .order-mudol #confrim, #see {
+  float: left;
+}
+
+#oprompts .order-mudol #cancel, #gocart {
+  float: right;
+}
+
+#opromptst {
+  position: fixed;
+  width: 10rem;
+  height: 6rem;
+  top: 50%;
+  font-size: 1rem;
+  left: 50%;
+  background: #ccc;
+  margin: -5rem -5rem;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 6rem;
+}
